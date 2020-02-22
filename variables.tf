@@ -279,3 +279,8 @@ variable "enable" {
   default     = true
   description = "Set to false to prevent the module from creating any resources."
 }
+variable "managedby" {
+  type        = string
+  default     = ""
+  description = "Managed by"
+}
