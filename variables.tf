@@ -11,6 +11,12 @@ variable "application" {
   description = "Application (e.g. `cd` or `clouddrove`)."
 }
 
+variable "tags-rds" {
+  type        = string
+  default     = ""
+  description = "Application (e.g. `cd` or `clouddrove`)."
+}
+
 variable "environment" {
   type        = string
   default     = ""
